@@ -16,6 +16,7 @@ namespace ConsoleApp1
             //FileStream fs = new FileStream(name,FileMode.Open);
             PBRT_r re = new PBRT_r(name);
             re.ReadResolution();
+            re.makeScene();
             //PBRT pbrt = new PBRT(name, "32768");
         }
     }
